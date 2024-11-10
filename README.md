@@ -74,20 +74,18 @@ A clean, responsive web application for adding and editing recipes. This project
 ```plaintext
 recipe-management-system/
 ├── templates/
-│   └── your_template.html      # Main template with form and layout
+│   └── index.html        # Main template with form and layout
+    └── add_recipe.html
+    └── login.html
+    └── profile.html
+    └── register.html      
 ├── static/
 │   └── style.css               # CSS styling
 ├── app.py                      # Flask server setup (if using Flask)
 └── README.md                   # Project README
 ```
 
-## Screenshots
 
-### Add Recipe
-![Add Recipe Screenshot](https://path-to-your-screenshot.png)
-
-### Edit Recipe
-![Edit Recipe Screenshot](https://path-to-your-screenshot.png)
 
 ## Contributing
 
